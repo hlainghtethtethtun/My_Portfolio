@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lobster+Two:wght@400;700&family=Yrsa:wght@400;600&display=swap');
+/* font-family: 'Bungee Shade', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Yrsa', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(255, 205, 205, 0.5) , rgba(255, 205, 205, 0.3));
+}
+
+.container h1{
+    font-family: 'Bungee Shade', cursive;
+}
+
+.container .name{
+    font-family: 'Yrsa', serif;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover{
+    border-bottom: 3px solid yellow;
+    color: #fff;
+}
+#navbar ul li a:active{
+    color: yellow;
+}
+/* ======================= */
+
+.home-text{
+    margin-top: 90px;
+    text-align: center;
+    /* font-family: 'Lobster Two', cursive; */
+    font-family: 'Yrsa', serif;
+}
+.home-text .greet{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.home-text b{
+    font-weight: bolder;
+    color: #ff5151;
+}
+.home-text i{
+    color: #ff5151;
+}
+
+.home-text .fend{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text .fend h2{
+    font-weight: bold;
+    color: red;
+}
+
+.home-text .fend p{
+    color: #575757;
+}
+
+.home-text .fend p span{
+    border-bottom: 2px solid #ff6060;
+}
+/* ==================== */
+.home-img{
+    margin-top: 90px;
+    text-align: center;
+    line-height: 350px;
+}
+.home-img img{
+    width: 400px;
+    height: 400px;
+}
+/* ======================= */
+
+#abouttext{
+    text-align: center;
+}
+
+#abouttext h1{
+    font-family: 'Bungee Shade', cursive;
+    /* font-weight: bold; */
+    margin: 30px 0px;
+    color: red;
+}
+
+#abouttext p{
+    font-size: 19px;
+    font-family: 'Yrsa', serif;
+    line-height: 30px;
+}
+
+#abouttext span{
+    border-bottom: 2px solid #ff6060;
+}
+
+#abouttext a{
+    text-decoration: none;
+    color: red;
+}
+
+#aboutimg img{
+    width: 150px;
+    box-shadow: 10px 6px 20px #8b8b8b;
+}
+/* ========================= */
+
+#mydesign h1{
+    color: red;
+}
+
+.btndesign li{
+    list-style-type: none;
+}
+
+.designUI{
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(to right bottom , rgba(255, 254, 254, 0.5) , rgba(253, 246, 246, 0.4));
+}
+
+
+.seemore{
+    font-size: 20px;
+    color: #ff5151;
+    font-weight: 700;
+    font-family: 'Yrsa', serif;
+    text-align: center;
+}
+
+.seemore:hover{
+    color: red;
+}
+
+.search:hover{
+    width: 100%;
+}
+/* ============================== */
+#mysuggestion{
+    background: linear-gradient(to right bottom , rgba(255, 205, 205, 0.5) , rgba(255, 205, 205, 0.4));
+    padding-bottom: 20px;
+}
+#mysuggestion h1{
+    margin-top: 20px;
+    color: red;
+}
+#mysuggestion p{
+    font-family: 'Yrsa', serif;
+    color: #ff5151;
+}
+
+.suggest{
+    box-sizing: border-box;
+    text-align: center;
+    background:   rgb(231, 23, 23);
+    width: 250px;
+    height: 330px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 6px 10px #adadad;
+}
+.suggest a{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 330px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Yrsa', serif;
+}
+
+.suggest a:hover{
+    color: black;
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+@media (max-width:500px){
+    .suggest{
+        box-sizing: border-box;
+        text-align: center;
+        background:   rgb(231, 23, 23);
+        width: 230px;
+        height: 330px;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 10px 6px 10px #adadad;
+    }
+}
+
+/* ============================ */
+footer{
+    font-family: 'Yrsa', serif;
+}
+footer h3{
+    font-weight: 700;
+}
+
+.btnlight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactph{
+    margin: 20px 0px;
+}
+
+.contactph .fa-phone{
+    color: green;
+    margin: 0px 15px;
+}
+.contactph .tele{
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+}
+.contactph .tele:hover{
+    color: rgb(23, 241, 23);
+    border-bottom: 2px solid rgb(53, 241, 53);
+}
+
+.contactph .fa-envelope{
+    color: red;
+    margin: 0px 15px;
+}
+.contactph .mail{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+.contactph .mail:hover{
+    color: rgb(235, 80, 80);
+    border-bottom: 2px solid rgb(235, 80, 80);
+}
+
+/* ====================== */
+.links h4{
+    color: red;
+    font-weight: 700;
+}
+.links ul{
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.links ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ff8282;
+    font-size: 20px;
+}
+.links ul li a:hover{
+    color: #ff1b1b;
+}
+
+.policy ul{
+    list-style: square;
+    margin: 30px 0px 0px 0px;
+}
+.policy ul li{
+    line-height: 2rem;
+}
+.policy ul li::marker{
+    color: blue;
+}
+.policy ul li a{
+    color: blue;
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    font-size: 20px;
+}
+
+.policy ul li a:hover{
+    color: rgb(107, 107, 219);
+}
+/* ====================== */
+
+.community{
+    margin: 20px 0px 10px 0px;
+}
+.community h3{
+    color: red;
+}
+
+.contacticon i{
+    color: #575757;
+    font-size: 23px;
+    margin-right: 20px;
+    transition: all 0.7s;
+}
+
+.contacticon i:hover{
+    color: #000;
+    font-size: 27px;
+}
